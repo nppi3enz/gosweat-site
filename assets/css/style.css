@@ -1,0 +1,294 @@
+/*
+ Theme Name:   GoSweat
+ Description:  GoSweat Theme
+ Author:       NPPi3enz
+ Template:     plant
+ Version:      1.0
+*/
+@font-face {
+    font-family: 'superspace_boldregular';
+    src: url('../fonts/superspace_bold_ver_1.00.woff2') format('woff2'),
+         url('../fonts/superspace_bold_ver_1.00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'superspace_regularregular';
+    src: url('../fonts/superspace_regular_ver_1.00.woff2') format('woff2'),
+         url('../fonts/superspace_regular_ver_1.00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'superspace_lightregular';
+    src: url('../fonts/superspace_light_ver_1.00.woff2') format('woff2'),
+         url('../fonts/superspace_light_ver_1.00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body, html{
+    font-family: 'superspace_boldregular';
+    color: #fff;
+    background: #121212;
+    scroll-behavior: smooth;
+}
+footer{
+    background-color: #242424;
+    text-align: center;
+    color: #fff;
+    padding:10px;
+}
+.mr-auto{
+    color: rgba(255,255,255,.5);
+}
+.title{
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'superspace_boldregular';
+}
+h2{
+	font-size: 4.5em;
+	margin: 0px;
+}
+.container, .container a{
+	font-family: 'superspace_boldregular';
+}
+.container-fluid.about{
+    background: #c4c4c4;
+    text-align: center;
+    color: #000;
+}
+.container-fluid.member{
+    background: #ee5f87;
+    text-align: center;
+}
+.container-fluid.member a .member-name{
+    font-size: 1.5em;
+	text-align: center;
+	color: #fff;
+}
+#member-area a .member-pic{
+  text-align: center;
+}
+#member-area a .member-pic img{
+	border-radius: 50%;
+  width: 100%;
+  max-width: 132px;
+}
+#member-info .member-right{
+    text-align: left;
+}
+#motto-area{
+	text-align: center;
+}
+#motto-area .heading-motto, #motto-area .description-motto{
+	color: #fff;
+}
+#motto-area .heading-motto{
+	font-size: 8em;
+}
+#motto-area .description-motto{
+    margin-top: -50px;
+    font-size: 1.5em;
+}
+#music-box{
+}
+#music-box li{
+	display: block;
+	border-top: 1px solid #979797;
+	border-left: 1px solid #979797;
+	border-right: 1px solid #979797;
+	background: #414141;
+	padding:10px 20px;
+	line-height: 1.5em;
+}
+#music-box li:first-child{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#music-box li:last-child{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom: 1px solid #979797;
+}
+#music-box li:hover, #music-box li.select{
+	background: #1E1E1E;
+	cursor: pointer;
+}
+
+#music-box li .heading{
+	font-size: 1.5em;
+}
+#music-box li .sub{
+	color: #A0A0A0;
+}
+
+.song-title{
+	font-size: 2em;
+}
+.song-description{
+	color: #828282;
+	font-size: 1.2rem;
+    line-height: 1.2em;
+}
+.streaming-music-area{
+	margin-top: 10px;
+}
+.streaming-btn{
+	display: inline-block;
+	border:1px solid #979797;
+	border-radius: 5px;
+	text-align: center;
+	padding:5px;
+	width:60px;
+	height:60px;
+	color: #fff;
+	font-size:2em;
+	margin-right:10px;
+}
+#member-info{
+	position: relative;
+}
+#member-info .name-title{
+	font-size: 3em;
+	color: #5f172c
+}
+#member-info .member-right{
+	 font-size: 1.5em;
+}
+#member-info .highlight{
+    color: #5f172c;
+}
+#member-info .social-area{
+	margin-top: 10px;
+}
+#member-info .social-area .social-btn{
+	display: inline-block;
+	width:50px;
+	color: #fff;
+	font-size:2rem;
+}
+#member-info .btn{
+	margin-top:20px;
+	width:100%;
+	color: #ccc;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+#member-info .btn:hover{
+	background: #ccc;
+	color: #000;
+}
+@media only screen and (max-width: 780px) {
+  h2 {
+      font-size: 1.5em;
+  }
+  #music-box {
+    padding-left: 0px;
+  }
+  #member-area .panel-grid-cell{
+    float: left;
+    width: 50%;
+  }
+  #member-info .name-title{
+  	font-size: 2em;
+  }
+  #member-info .member-right{
+  	 font-size: 1.0em;
+  }
+}
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel .carousel-item {
+    height: 32rem;
+  }
+  .carousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 28rem;
+  }
+  .container{
+      padding: 30px 10px;
+  }
+  #quoteSweat{
+      background-color: rgba(0,0,0,0.5);
+      font-family: 'superspace_lightregular';
+      margin-bottom: 0 !important;
+  }
+  #quoteSweat .carousel-item {
+    /* height: 25rem; */
+
+    background: #000;
+    position: relative;
+    z-index: 1;
+    height: 25rem;
+  }
+  #quoteSweat .carousel-item .bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  #quoteSweat .carousel-item .container {
+      font-size: 2.4em;
+      text-align: center;
+      padding: 40px 50px 20px 50px;
+  }
+  #quoteSweat .carousel-item .container .name{
+    font-size: 0.7em;
+    text-align: right;
+  }
+  #quoteSweat .carousel-item .container .sub-name{
+    font-size: 0.7em;
+    opacity: 0.5;
+    text-align: right;
+  }
+
+  .partner{
+      border:1px solid #ccc;
+      padding:30px;
+      display: block;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
