@@ -203,6 +203,15 @@ $.fn.extend({
       link_spotify: 'https://open.spotify.com/album/07v7uKtoikoBEBhHXgYA3t',
       link_joox: 'http://music.sanook.com/music/song/7EJ8EGN7kNjo6NQ2Dw2ZIQ==/lyric/',
     },
+    { title: 'ชาไข่มุก (Bubble Tea)',
+      title_en: 'Bubble Tea',
+      album: '5th Single Album',
+      youtube: '1k9uvhTw9Fc',
+      other: 'Released: 31 MAR 2019',
+      link_itune: 'https://itunes.apple.com/th/album/%E0%B8%8A%E0%B8%B2%E0%B9%84%E0%B8%82-%E0%B8%A1-%E0%B8%81/1457561995?i=1457562146',
+      link_spotify: 'https://open.spotify.com/album/3wImY5HUjArh2Zh7hjECE3',
+      link_joox: 'http://music.sanook.com/music/song/d8u_5BiDTBGrfwxcpKi1ng==/lyric/',
+    },
   
   ];
   function loadMusic(id){
